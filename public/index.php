@@ -2,7 +2,7 @@
 declare(strict_types=1);
 require_once __DIR__ . '/../src/bootstrap.php';
 
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.1.0';
 $pdo = get_pdo($config);
 $error = '';
 $success = '';
